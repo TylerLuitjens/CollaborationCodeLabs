@@ -15,7 +15,6 @@ public class apothecary {
 		int DefencePotion = 15;
 		String Heal = "";
 		String Atk = "";
-		String pen;
 		String Def = "";
 		if(coins == (HealthPotion))
 		{

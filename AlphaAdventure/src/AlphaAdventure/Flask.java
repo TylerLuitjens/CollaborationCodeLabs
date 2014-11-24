@@ -8,7 +8,6 @@ public class Flask {
 	{
 		ArrayList<String> pack = new ArrayList<String>();
 		pack.add(potions);
-		String tester;
 		return pack;
 	}
 }
