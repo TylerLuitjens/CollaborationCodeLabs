@@ -11,7 +11,11 @@ public Armory(String weapon,int money)
 	cash=money;
 	System.out.println("What type of weapon do you wish to make? ");
 	if(scan.next().equalsIgnoreCase("Sword"));
-	inhand=new Sword();
+	
+	if(money>inhand.cost())
+	{
+		inhand=new Sword();
+	}
 	
 	
 	
