@@ -1,3 +1,4 @@
+package AlphaAdventure;
 import java.util.Scanner;
 import java.util.ArrayList;
 import static java.lang.System.*;
@@ -18,7 +19,7 @@ public class apothecary {
 		String Def = "";
 		if(coins == (HealthPotion))
 		{
-			Inventory.Backpack("nothing", Heal);
+			Flask.PotionCase(Heal);
 		}
 
 	}
